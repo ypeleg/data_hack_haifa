@@ -1,22 +1,23 @@
-![alt text](imgs/logo.png)
-<center><h1>Introduction to Data Science</h1></center>
-<center><h5>Yam Peleg</h5></center>
 
 
------
+<p align="center">
+<img align="center" width="600" src="imgs/logo.png">
+<h3 align="center">Introduction to Data Science</h3>
+<h5 align="center">Yam Peleg</h5>
+</p>
+<hr>
 
-
-# Syllabus and Class Notes
+## Syllabus and Class Notes
 
 <!--
 A list to the notes from class can be found [here]().
 -->
-# Total time (including breaks): 3 Hours
+## Total time (including breaks): 3 Hours
 
 Each section is about 45-55 minutes to allow for a small break between sections.
 The tutorial will be a live-coding lecture, with a break for exercises and questions every 45-55 minutes.
 
-## :00 - :45 Chapter 1: Pandas DataFrame Basics
+### :00 - :45 Chapter 1: Pandas DataFrame Basics
 
 - Running python
 	- Anaconda, Python, IPython, and Jupyter notebooks
@@ -36,7 +37,7 @@ Before we start cleaning data, let's begin by covering the basics of the Pandas 
 
 
 
-## :45 - 1:30 Chapter 2: Applying Functions
+### :45 - 1:30 Chapter 2: Applying Functions
 
 Sometimes we need a more complex method to tidy our data. Other times, we need to perform more complex tasks on our data. Here we'll cover how to write functions in Python and how to apply them to our data. This way, if a method does not exist to perform the task we want, or if we want to combine multiple tasks together, we can write our own custom functions to process our data.
 
@@ -46,7 +47,7 @@ Sometimes we need a more complex method to tidy our data. Other times, we need t
 
 exercise: use the ebola dataset from the tidy section, and instead of using the .str. accessor, write a function to parse out the string.
 
-## 1:30 - 2:15 Vizualizations with Seaborn
+### 1:30 - 2:15 Vizualizations with Seaborn
 
 Getting ready for feature engineering
 
@@ -57,7 +58,7 @@ This tutorial takes you through the basics and various functions of Seaborn. It 
 - Box plotting / Scatter Plotting
 - Basic Statistics 
 
-## 2:15 - 3:00 Feature Engineering
+### 2:15 - 3:00 Feature Engineering
 
 After we explored the data, it is time to work with it.
 A common task is to fit some statistical model on our data.
@@ -73,16 +74,16 @@ exercise: fit a model on the titanic datset
 
 
 
-## Pre-readings
+### Pre-readings
 
 1. [A Quick Guide to Organizing Computational Biology Projects][1]
 2. [Tidy Data][2]
 3. [Best Practices for Scientific Computing][3]
 4. [Good enough practices in scientific computing][4]
 
-## Setup
+### Setup
 
-### Python
+#### Python
 <a href="https://www.anaconda.com/download/">Anaconda</a>,
 an all-in-one installer, is recommended.
 
@@ -98,7 +99,7 @@ Firefox browsers are all
 (some older browsers, including Internet Explorer version 9
 and below, are not).
 
-#### Windows
+##### Windows
 <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
 <ol>
 <li>Open <a href="https://www.anaconda.com/download/">http://continuum.io/downloads</a> with your web browser.</li>
@@ -114,7 +115,7 @@ and below, are not).
 <li>Install Python 3 using all of the defaults for installation.</li>
 </ol>
 
-#### Linux
+##### Linux
 <ol>
 <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
 <li>Download the Python 3 installer for Linux.<br>
@@ -145,7 +146,7 @@ press enter to prepend Anaconda to your <code>PATH</code>
 Close the terminal window.
 </ol>
 
-### Testing If Anaconda was installed
+#### Testing If Anaconda was installed
 <!-- #endregion -->
 
 1. Open up the Anaconda Command Prompt
