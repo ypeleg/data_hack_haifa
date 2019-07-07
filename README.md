@@ -1,21 +1,27 @@
+<!-- #region -->
 
 
 <p align="center">
 <img align="center" width="600" src="imgs/logo.png">
-<h3 align="center">Introduction to Data Science</h3>
+<hr>
+<h3 align="center">Hands-On Introduction to Data Science</h3>
 <h5 align="center">Yam Peleg</h5>
 </p>
+
 <hr>
+<br>
 
 ## Syllabus and Class Notes
 
-<!--
-A list to the notes from class can be found [here]().
--->
+
+
+
 ## Total time (including breaks): 3 Hours
 
 Each section is about 45-55 minutes to allow for a small break between sections.
 The tutorial will be a live-coding lecture, with a break for exercises and questions every 45-55 minutes.
+
+<b>Important: This tutorial is extremely Hands-On! Bring a computer with you so you won't miss out! </b>
 
 ### :00 - :45 Chapter 1: Pandas DataFrame Basics
 
@@ -35,7 +41,7 @@ Before we start cleaning data, let's begin by covering the basics of the Pandas 
 - Grouped and aggregated calculations
 - Export/save data
 
-
+<!-- #endregion -->
 
 ### :45 - 1:30 Chapter 2: Applying Functions
 
@@ -161,3 +167,22 @@ Close the terminal window.
 [2]: http://vita.had.co.nz/papers/tidy-data.html
 [3]: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 [4]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+
+
+<hr>
+
+Many of the slides and notebooks in this repository are based on other repositories and tutorials. 
+
+**References:**  
+
+* **[MJ Bahmani - 10 Steps to become a data scientist](https://www.kaggle.com/mjbahmani/10-steps-to-become-a-data-scientist)**
+
+* **[Pedro Marcelino - Comprehensive data exploration with Python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)**
+
+* **[deja vu - House Prices: EDA to ML (Beginner)](https://www.kaggle.com/dejavu23/house-prices-eda-to-ml-beginner)**
+
+* **[Daniel Chen - Pandas For Everyone](https://github.com/chendaniely/pandas_for_everyone)**
+
+* **[Guilherme Samora - Pandas Excercises](https://github.com/guipsamora/pandas_exercises)**
+
+<hr>
