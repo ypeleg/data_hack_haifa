@@ -185,4 +185,8 @@ Many of the slides and notebooks in this repository are based on other repositor
 
 * **[Guilherme Samora - Pandas Excercises](https://github.com/guipsamora/pandas_exercises)**
 
+* **[Mahsa Teimourikia - Decision Trees And Random Forests In Python](https://github.com/mahsa-teimourikia/DecisionTreesAndRandomForestsInPython)**
+
+* **[Data For Science - DataViz](https://github.com/DataForScience/DataViz)**
+
 <hr>
