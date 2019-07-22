@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 
-train = pd.read_csv('data/house_prices.csv')
-test = pd.read_csv('data/test.csv')
+train = pd.read_csv(r'house_prices.csv')
+test = pd.read_csv(r'test.csv')
 print('Train: ', train.shape, 'Test: ', test.shape)
 
 df = pd.concat((train, test))
@@ -28,8 +28,8 @@ y = X['SalePrice']
 y = np.log(y)
 X.drop('SalePrice', axis='columns')
 
-print X.shape
-print X_comp.shape
+print(X.shape)
+print(X_comp.shape)
 
 def rmsle(y, y_pred):
     return np.sqrt(mean_squared_error(y, y_pred))
@@ -42,6 +42,6 @@ for train_index, test_index in KFold(n_splits=5).split(X):
     mdl.fit(X_train, y_train)
     print('score: ', rmsle(y_test, mdl.predict(X_test)))
 
-sub = pd.read_csv('data/sample_sub.csv')
+sub = pd.read_csv('sample_sub.csv')
 sub['SalePrice'] = np.exp(mdl.predict(X_comp))
 sub.to_csv("sub.csv", index=False)
